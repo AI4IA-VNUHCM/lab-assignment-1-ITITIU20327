@@ -24,8 +24,6 @@ int main(int argc, char *argv[]) {
 	int height = atoi(argv[1]);
 	int border = atoi(argv[2]);
 	//Your codes here
-	char blank[2] = "  ";
-	char asterisk[2] = " *";
 	int width = height * 2 - 1;
 	int array[height][width];
 	for (int i = 0; i < height; i++)
@@ -77,7 +75,7 @@ int main(int argc, char *argv[]) {
 			}
 			else printf("  ");
 		}
-		printf("\n");
+		printf(" \n");
 	}
 
 	
