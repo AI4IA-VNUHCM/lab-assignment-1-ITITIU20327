@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Ex1 Test1",
+      "setup": "gcc ./src/Exercise1.c -o ./bin/Ex1.out -lm",
+      "run": "./bin/Ex1.out 132768",
+      "input": "",
+      "output": "8 6 7 2 3 1",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Ex2 Test1",
+      "setup": "gcc ./src/Exercise2.c -o ./bin/Ex2.out -lm",
+      "run": "./bin/Ex2.out -3 5 -2 9 8 10 5 -1 0",
+      "input": "",
+      "output": "Max: 10\r\nMin: -3",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Ex3 Test1",
+      "setup": "gcc ./src/Exercise3.c -o ./bin/Ex3.out -lm",
+      "run": "./bin/Ex3.out 10",
+      "input": "",
+      "output": "2 3 5 7",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Ex4 Test1",
+      "setup": "gcc ./src/Exercise4.c -o ./bin/Ex4.out -lm",
+      "run": "./bin/Ex4.out 7 2",
+      "input": "",
+      "output": "            *             \r\n          * * *           \r\n        * *   * *         \r\n      * *       * *       \r\n    * *           * *     \r\n  * * * * * * * * * * *   \r\n* * * * * * * * * * * * *",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
