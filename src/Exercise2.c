@@ -27,5 +27,16 @@ int main(int argc, char *argv[]) {
 	}
 	//Your codes here
 
+	int min = testcase[0];
+	int max = testcase[0];
+
+	for (int j = 1; j < i; j++)
+	{
+		min = fmin(min, testcase[j]);
+		max = fmax(max, testcase[j]);
+	}
+
+	printf("Max: %d\nMin: %d", max, min);
+
 	return 0;
 }
